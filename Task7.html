@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task7</title>
+    <style>
+        div{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>123</div>
+    <div class="example-class">234</div>
+    <div>345</div>
+    <div class="example-class">456</div>
+    <div class="example-class">567</div>
+
+    <script>
+        document.querySelectorAll('.example-class').forEach(div => {
+            div.style.height = '100px';
+        })
+    </script>
+</body>
+</html>
